@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtNim"
+        android:text="1601082031"
+        android:textSize="@dimen/text_medium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/table_content_cell_bg"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:text="Azri Nurvani"
+        android:textSize="@dimen/text_medium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/table_content_cell_bg"/>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:text="azrinurvani@gmail.com"
+        android:textSize="@dimen/text_medium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/table_content_cell_bg"/>
+
+    <TextView
+        android:id="@+id/txtMajor"
+        android:text="Teknologi Informasi"
+        android:textSize="@dimen/text_medium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/table_content_cell_bg"/>
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:text="Male"
+        android:textSize="@dimen/text_medium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/table_content_cell_bg"/>
+
+
+
+
+</LinearLayout>
